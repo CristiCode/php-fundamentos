@@ -10,11 +10,11 @@
 <body>
     <?php
 
-    //Estructura de control flujo include
+    //Estructura de control flujo require
 
     echo "Soy el primer fichero";
     echo "<br>";
-    include_once "include2.php"; // No incluye el siguiente fichero si es el mismo
+    require "include2.php"; // No incluye el siguiente fichero si es el mismo
     echo "<br>";
     include_once "include2.php";
     ?>
