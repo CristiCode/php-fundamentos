@@ -11,6 +11,7 @@
     <?php
 
     // Paso por valor y por referencia
+    $num1 = 4;
 
     function miFuncion($num1)
     {
@@ -22,7 +23,6 @@
         $num1 = $num1 + 2;
     }
 
-    $num1 = 4;
 
     miFuncion($num1);
     echo $num1;
